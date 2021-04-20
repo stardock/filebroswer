@@ -3,9 +3,9 @@
 
 1、安装filebrowser
 
-tar -xvf linux-amd64-filebrowser.tar.gz
-mkdir -p /filebrowser
-mv filebrowser /filebrowser
+tar -xvf linux-amd64-filebrowser.tar.gz  
+mkdir -p /filebrowser  
+mv filebrowser /filebrowser  
 
 2、配置
 
@@ -53,7 +53,7 @@ vim /etc/systemd/system/filebrowser.service
 
 
 ExecStart根据自己的实际目录修改
-
+```  
 [Unit]
 Description=File Browser
 After=network.target
@@ -63,15 +63,15 @@ ExecStart=/filebrowser/filebrowser -d /filebrowser/filebrowser.db
 
 [Install]
 WantedBy=multi-user.target
-
+```  
 
 
 （2）启动及开机自启
-
+```  
 systemctl daemon-reload
 systemctl start filebrowser
 systemctl enable filebrowser
-
+```  
 
 
 4、浏览器访问
