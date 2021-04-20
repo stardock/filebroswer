@@ -79,9 +79,5 @@ systemctl enable filebrowser
 浏览器直接访问地址加我们设置的端口即可打开filebrowser的首页，然后可以使用上面我们创建的管理员账户添加普通账户设置账户访问目录访问权限等等操作
 
 
-————————————————
-版权声明：本文为CSDN博主「咖啡那么浓」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/ywd1992/article/details/93030495
-
 Ref: https://blog.csdn.net/ywd1992/article/details/93030495  
 
