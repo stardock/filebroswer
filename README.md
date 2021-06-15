@@ -16,7 +16,7 @@ mv filebrowser /filebrowser
 
 （2）设置监听地址
 
-./filebrowser -d /filebrowser/filebrowser.db config set --address 192.168.0.101
+./filebrowser -d /filebrowser/filebrowser.db config set --address 0.0.0.0
 
 
 
